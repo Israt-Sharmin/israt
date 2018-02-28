@@ -1,5 +1,5 @@
 # jenkins-elk-cloud
-Simple repository using Cloudformation to deploy Jenkins and ELK Stack
+This repository is using Cloudformation to deploy Jenkins and ELK Stack
 
 ## Objective:
 
