@@ -40,7 +40,7 @@ ref_stack_name = Ref('AWS::StackName')
 quad_zero_ip = constants.QUAD_ZERO  # '0.0.0.0/0'
 
 candidate_id= 'candidate-8578e887'
-candidate_name= 'mkowalsky'
+candidate_name= 'Israt'
 
 add_elk_instance = True
 
