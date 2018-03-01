@@ -238,7 +238,7 @@
         "Tags": [
           {
             "Key": "Candidate",
-            "Value": "Israt"
+            "Value": "israt"
           },
           {
             "Key": "Name",
@@ -253,7 +253,7 @@
         "Tags": [
           {
             "Key": "Candidate",
-            "Value": "Israt"
+            "Value": "israt"
           }
         ]
       },
@@ -316,7 +316,7 @@
         "Tags": [
           {
             "Key": "CandidateName",
-            "Value": "Israt"
+            "Value": "israt"
           },
           {
             "Key": "Name",
@@ -331,12 +331,12 @@
                 "#!/bin/bash\n",
                 "service ufw stop\n",
                 "apt-get update\n",
-                "apt-get python-pycurl -y\n",
+                "apt-get install python-pycurl -y\n",
                 "apt-get install software-properties-common -y\n",
                 "apt-add-repository ppa:ansible/ansible\n",
                 "apt-get update\n",
                 "apt-get install ansible -y\n",
-                "wget https://github.com/Israt-Sharmin/israt/blob/master/cm_tool/elk_stack.yml\n",
+                "wget https://raw.githubusercontent.com/mkowalsky/jenkins-elk-cloud/master/cm_tool/elk_stack.yml\n",
                 "ansible-playbook -i \"127.0.0.1,\" elk_stack.yml"
               ]
             ]
@@ -392,7 +392,7 @@
         "Tags": [
           {
             "Key": "CandidateName",
-            "Value": "Israt"
+            "Value": "israt"
           },
           {
             "Key": "Name",
@@ -416,10 +416,10 @@
                   "Ref": "jenkinsPWParam"
                 },
                 "\n",
-                "wget -O /tmp/jenkins_elk.json https://github.com/Israt-Sharmin/israt/blob/master/jenkins_ELK_cfn_vpc_template.json\n",
-                "wget -O /opt/update-stack.sh https://github.com/Israt-Sharmin/israt/blob/master/update-stack.sh\n",
+                "wget -O /tmp/jenkins_elk.json https://raw.githubusercontent.com/mkowalsky/jenkins-elk-cloud/master/jenkins_ELK_cfn_vpc_template.json\n",
+                "wget -O /opt/update-stack.sh https://raw.githubusercontent.com/mkowalsky/jenkins-elk-cloud/master/update-stack.sh\n",
                 "chmod 754 /opt/update-stack.sh\n",
-                "wget -O /tmp/jenkinsJob.xml https://github.com/Israt-Sharmin/israt/blob/master/jenkinsJob.xml\n",
+                "wget -O /tmp/jenkinsJob.xml https://raw.githubusercontent.com/mkowalsky/jenkins-elk-cloud/master/jenkinsJob.xml\n",
                 "curl -u user:",
                 {
                   "Ref": "jenkinsPWParam"
@@ -517,7 +517,7 @@
         "Tags": [
           {
             "Key": "Candidate",
-            "Value": "Israt"
+            "Value": "israt"
           }
         ],
         "VpcId": {
@@ -576,7 +576,7 @@
         "Tags": [
           {
             "Key": "Candidate",
-            "Value": "Israt"
+            "Value": "israt"
           },
           {
             "Key": "Name",
